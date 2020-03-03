@@ -1,7 +1,7 @@
 (function(exports) {
   Note = function(text) {
     this.text = text;
-    this.containsText = function() {
+    this.output = function() {
       return this.text;
     };
   };

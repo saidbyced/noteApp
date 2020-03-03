@@ -1,7 +1,7 @@
 (function(exports) {
   NoteList = function() {
     this.notes = [];
-    this.showNotes = function(){
+    this.allNotes = function(){
       return this.notes;
     };
   };
