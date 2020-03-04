@@ -1,5 +1,3 @@
-var Note = require("../note-model").Note;
-
 (function(exports) {
   function testNoteCreation() {
     var testingText = "Message in a object...whoooaaahhh";
@@ -9,7 +7,7 @@ var Note = require("../note-model").Note;
     if (note.output() !== testingText) {
       throw new Error(`Note text should be ${testingText}`);
     } else {
-      console.log(".");
+      console.log(`${testNoteCreation.name} passes`);
     };
   };
 
